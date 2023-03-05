@@ -16,5 +16,13 @@
 		"sourceType": "module"
 	},
 	"plugins": ["react", "@typescript-eslint"],
-	"rules": {}
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"rules": {
+		"react/jsx-uses-react": "off",
+		"react/react-in-jsx-scope": "off"
+	}
 }
