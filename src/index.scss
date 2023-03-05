@@ -1,0 +1,128 @@
+:root {
+	// font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-family: SF-Pro, sans-serif;
+	color: white;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	display: block;
+	min-width: 320px;
+	min-height: 100vh;
+	background: linear-gradient(168.12deg, #2e335a 1.61%, #1c1b33 100%);
+	box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.7);
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/SF-Pro-Display-Ultralight.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/SF-Pro-Display-Ultralight.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/SF-Pro-Display-Ultralight.woff')
+			format('woff'),
+		/* Pretty Modern Browsers */
+			url('./assets/fonts/SF-Pro-Display-Ultralight.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+			url('./assets/fonts/SF-Pro-Display-Ultralight.svg') format('svg'); /* Legacy iOS */
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/SF-Pro-Display-Light.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/SF-Pro-Display-Light.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/SF-Pro-Display-Light.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/SF-Pro-Display-Light.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */
+			url('./assets/fonts/SF-Pro-Display-Light.eot.svg') format('svg'); /* Legacy iOS */
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/sf-pro-text-regular.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/sf-pro-text-regular.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/sf-pro-text-regular.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/sf-pro-text-regular.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */ url('./assets/fonts/sf-pro-text-regular.svg')
+			format('svg'); /* Legacy iOS */
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/sf-pro-text-medium.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/sf-pro-text-medium.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/sf-pro-text-medium.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/sf-pro-text-medium.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */ url('./assets/fonts/sf-pro-text-medium.svg')
+			format('svg'); /* Legacy iOS */
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/sf-pro-text-semibold.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/sf-pro-text-semibold.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/sf-pro-text-semibold.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/sf-pro-text-semibold.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */ url('./assets/fonts/sf-pro-text-semibold.svg')
+			format('svg'); /* Legacy iOS */
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/sf-pro-text-bold.eot'); /* IE9 Compat Modes */
+	src: url('./assets/fonts/sf-pro-text-bold.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/sf-pro-text-bold.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/sf-pro-text-bold.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */ url('./assets/fonts/sf-pro-text-bold.svg')
+			format('svg'); /* Legacy iOS */
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'SF-Pro';
+	src: url('./assets/fonts/sf-pro-text-heavy.eot');
+	src: url('./assets/fonts/sf-pro-text-heavy.eot?#iefix')
+			format('embedded-opentype'),
+		/* IE6-IE8 */ url('./assets/fonts/sf-pro-text-heavy.woff') format('woff'),
+		/* Pretty Modern Browsers */ url('./assets/fonts/sf-pro-text-heavy.ttf')
+			format('truetype'),
+		/* Safari, Android, iOS */ url('./assets/fonts/sf-pro-text-heavy.svg')
+			format('svg'); /* Legacy iOS */
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}

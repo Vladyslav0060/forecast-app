@@ -34,7 +34,10 @@
 		"vite": "^4.1.0"
 	},
 	"lint-staged": {
-		"*.js": "eslint --fix ",
-		"*.{js,css,md,html,json}": "prettier --cache --write"
+		"**/*.{ts,tsx}": [
+			"npm run lint",
+			"prettier --write"
+		],
+		"*.--write": "prettier --write"
 	}
 }
