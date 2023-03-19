@@ -12,13 +12,12 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+html,
 body {
+	height: 100%;
 	margin: 0;
-	display: block;
-	min-width: 320px;
-	min-height: 100vh;
-	background: linear-gradient(168.12deg, #2e335a 1.61%, #1c1b33 100%);
-	box-shadow: -40px 60px 150px rgba(59, 38, 123, 0.7);
+	padding: 0;
+	font-family: SF-Pro, sans-serif;
 }
 
 @font-face {
